@@ -11,6 +11,7 @@ $DEFAULT_LOCATION = 'San Diego, CA';
 $SEARCH_LIMIT = 6;
 $SEARCH_PATH = '/v2/search/';
 $BUSINESS_PATH = '/v2/business/';
+$FAKEVAR = "MEW";
 
 function request($host, $path) {
     $unsigned_url = "http://" . $host . $path;
